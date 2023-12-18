@@ -15,9 +15,9 @@ def main():
         if(choix == "1"):
             menus.menuGestionnaire()
         elif(choix == "2"):
-            print("Menu pas encore implémenté")
+            menus.menuVeterinaire()
         elif(choix == "3"):
-            print("Menu pas encore implémenté")
+            menus.menuAssistant()
         elif(choix == "4"):
             print("Au revoir !")
             connexion.deconnexion(conn)
